@@ -161,7 +161,7 @@ const contactForm =
 
 
 contactForm.addEventListener(
-    "submit",
+    "submit", 
     function (event) {
 
         event.preventDefault();
