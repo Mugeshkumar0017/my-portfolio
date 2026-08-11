@@ -164,7 +164,10 @@ contactForm.addEventListener(
     "submit", 
     function (event) {
 
-        event.preventDefault();
+        setTimeout(() =>{
+           contactForm.reset();
+        },1000);
+    });
 
         const name =
             document.getElementById(
