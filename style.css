@@ -1160,6 +1160,10 @@ textarea {
     border-radius: 6px;
 
     cursor: pointer;
+   
+    font-size:14px;
+    font-family:inherit;
+    display:inline-block;
 }
 
 
